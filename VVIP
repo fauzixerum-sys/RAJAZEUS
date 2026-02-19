@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAJAZEUS VIP PROMO</title>
+
+<style>
+
+/* ================= ROOT ================= */
+:root{
+  --gold:#FFD700;
+  --dark:#0a0a0a;
+  --card:#151515;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+html{scroll-behavior:smooth;}
+
+body{
+  background:var(--dark);
+  color:white;
+  line-height:1.6;
+}
+
+/* ================= HEADER ================= */
+header{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:black;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 40px;
+  z-index:1000;
+  box-shadow:0 0 20px rgba(255,215,0,0.4);
+}
+
+header img{width:120px;}
+
+header a{
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+  transition:.3s;
+}
+
+header a:hover{
+  text-shadow:0 0 10px var(--gold);
+}
+
+/* ================= HERO ================= */
+.hero{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background:radial-gradient(circle at top,#222,#000);
+  padding:20px;
+}
+
+.hero h1{
+  font-size:55px;
+  color:var(--gold);
+  text-shadow:
+    0 0 10px var(--gold),
+    0 0 20px var(--gold),
+    0 0 40px var(--gold);
+  margin-bottom:15px;
+  letter-spacing:3px;
+}
+
+.hero p{
+  letter-spacing:2px;
+  margin-bottom:30px;
+  color:#ccc;
+}
+
+.btn{
+  background:var(--gold);
+  color:black;
+  padding:15px 45px;
+  border-radius:50px;
+  font-weight:bold;
+  text-decoration:none;
+  box-shadow:0 0 20px var(--gold);
+  transition:.3s;
+}
+
+.btn:hover{
+  transform:scale(1.08);
+  box-shadow:0 0 35px var(--gold);
+}
+
+/* ================= SECTION ================= */
+.section{
+  max-width:1100px;
+  margin:auto;
+  padding:120px 20px 60px 20px;
+}
+
+.section h2{
+  color:var(--gold);
+  text-align:center;
+  margin-bottom:30px;
+  text-shadow:0 0 10px var(--gold);
+}
+
+.card{
+  background:var(--card);
+  padding:30px;
+  border-radius:15px;
+  margin-bottom:40px;
+  box-shadow:0 0 15px rgba(255,215,0,0.1);
+  transition:.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 0 30px rgba(255,215,0,0.4);
+}
+
+.card h3{
+  color:var(--gold);
+  margin-bottom:15px;
+}
+
+ul{
+  margin-left:20px;
+  margin-bottom:15px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:15px;
+}
+
+th,td{
+  border:1px solid #333;
+  padding:12px;
+  text-align:center;
+}
+
+th{
+  background:#111;
+  color:var(--gold);
+}
+
+tr:nth-child(even){
+  background:#1b1b1b;
+}
+
+/* ================= PRIORITY BUTTON ================= */
+.priority-section{
+  text-align:center;
+  margin-top:60px;
+}
+
+.priority-btn{
+  display:inline-block;
+  background:linear-gradient(45deg,#FFD700,#ffcc00);
+  color:black;
+  padding:20px 60px;
+  border-radius:50px;
+  font-weight:bold;
+  text-decoration:none;
+  font-size:18px;
+  box-shadow:0 0 25px rgba(255,215,0,0.7);
+  transition:.3s;
+}
+
+.priority-btn:hover{
+  transform:scale(1.1);
+  box-shadow:0 0 45px gold;
+}
+
+/* ================= FOOTER ================= */
+footer{
+  background:black;
+  text-align:center;
+  padding:25px;
+  color:gray;
+  margin-top:60px;
+}
+
+/* ================= BACK TO TOP ================= */
+.top-btn{
+  position:fixed;
+  bottom:25px;
+  right:25px;
+  background:var(--gold);
+  color:black;
+  padding:12px 18px;
+  border-radius:50%;
+  text-decoration:none;
+  font-weight:bold;
+  box-shadow:0 0 20px var(--gold);
+  transition:.3s;
+}
+
+.top-btn:hover{
+  transform:scale(1.1);
+}
+
+/* ================= RESPONSIVE ================= */
+@media(max-width:768px){
+  header{flex-direction:column;gap:10px;}
+  .hero h1{font-size:32px;}
+  .section{padding-top:140px;}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="https://api2-pd7.imgnxb.com/images/MEXS5xN8Ees/logo_d808ac32-7da1-4e63-811e-f2575958e82f_1770209161337.png" alt="Logo">
+  <a href="#promo">PROMO</a>
+</header>
+
+<section class="hero">
+  <h1>RAJAZEUS VIP</h1>
+  <p>EXCLUSIVE MEMBER PRIORITY</p>
+  <a href="#promo" class="btn">LIHAT PROMOTION</a>
+</section>
+
+<div class="section" id="promo">
+
+<h2>🎂 BONUS ULANG TAHUN VIP</h2>
+<div class="card">
+<ul>
+<li>Bonus Rp 500.000 untuk Member VIP</li>
+<li>Pengajuan minimal H-1 sebelum ulang tahun</li>
+<li>Bonus dikreditkan maksimal 1x24 jam</li>
+<li>Syarat Withdraw: TO X1</li>
+</ul>
+
+<h3>Cara Claim</h3>
+<ul>
+<li>Nama akun</li>
+<li>Username</li>
+<li>Tanggal lahir</li>
+<li>Foto identitas (opsional)</li>
+</ul>
+</div>
+
+<h2>🎰 VIP CASINO MINGGUAN</h2>
+<div class="card">
+<h3>Cashback 4% – No Max</h3>
+<ul>
+<li>Khusus Member VIP</li>
+<li>Minimal kekalahan Rp 500.000 / minggu</li>
+<li>Klaim 1x per minggu</li>
+</ul>
+<table>
+<tr><th>Persen</th><th>Bonus</th><th>Min Loss</th></tr>
+<tr><td>4%</td><td>20.000</td><td>500.000</td></tr>
+</table>
+
+<h3>Rollingan 0.5%</h3>
+<ul>
+<li>Minimal TO 2.000.000</li>
+<li>Maksimal Rollingan 10.000.000</li>
+</ul>
+</div>
+
+<h2>🎰 VIP SLOT MINGGUAN</h2>
+<div class="card">
+<h3>Cashback 4% – No Max</h3>
+<ul>
+<li>Minimal kekalahan Rp 1.000.000 / minggu</li>
+<li>Klaim 1x per minggu</li>
+</ul>
+<table>
+<tr><th>Persen</th><th>Bonus</th><th>Min Loss</th></tr>
+<tr><td>4%</td><td>40.000</td><td>1.000.000</td></tr>
+</table>
+
+<h3>Rollingan 1%</h3>
+<ul>
+<li>Minimal TO 1.000.000</li>
+<li>Maksimal Rollingan 10.000.000</li>
+</ul>
+</div>
+
+<h2>🏆 VIP SPORTSBOOK MINGGUAN</h2>
+<div class="card">
+<h3>Cashback 8% – No Max</h3>
+<ul>
+<li>Khusus Member VIP</li>
+<li>Minimal kekalahan Rp 1.000.000 / minggu</li>
+<li>Klaim 1x per minggu</li>
+</ul>
+<table>
+<tr><th>Persen</th><th>Bonus</th><th>Min Loss</th></tr>
+<tr><td>8%</td><td>80.000</td><td>1.000.000</td></tr>
+</table>
+</div>
+
+<!-- PRIORITY BUTTON -->
+<div class="priority-section">
+<h2>SILAHKAN HUBUNGI PELAYANAN PRIORITAS</h2>
+<br>
+<a href="https://t.me/VVIPRAJAZEUS" target="_blank" class="priority-btn">
+HUBUNGI SEKARANG
+</a>
+</div>
+
+</div>
+
+<footer>
+© 2026 RAJAZEUS VIP. All Rights Reserved.
+</footer>
+
+<a href="#" class="top-btn">↑</a>
+
+</body>
+</html>
